@@ -5,10 +5,26 @@
 [![Google Cirq 1.7](https://img.shields.io/badge/Google%20Cirq-1.7%2B-4285F4.svg)](https://quantumai.google/cirq)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Physics: Quantum Gravity](https://img.shields.io/badge/Physics-Simplicial%20Gravity-success.svg)](https://arxiv.org/)
+[![GitHub Stars](https://img.shields.io/github/stars/SHZ-codex/simplicial-hub-impedance?style=social)](https://github.com/SHZ-codex/simplicial-hub-impedance/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/SHZ-codex/simplicial-hub-impedance)](https://github.com/SHZ-codex/simplicial-hub-impedance/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/SHZ-codex/simplicial-hub-impedance)](https://github.com/SHZ-codex/simplicial-hub-impedance/commits/main)
 
 **Author:** Michał Ślusarczyk  
 **Date:** July 2026  
 **Research Focus:** Simplicial Quantum Gravity, Causal Dynamical Triangulations (CDT), Relational Observables (ROI), Continuous-Time Quantum Walks (CTQW), Trotter-Suzuki Quantum Algorithms, Discrete Einstein Field Equations, FLRW Cosmology, Graph Neural Network (GNN) Oversmoothing.
+
+## 📑 Table of Contents
+
+- [Executive Summary & Scientific Breakthrough](#-executive-summary--scientific-breakthrough)
+- [1. Quantum Algorithm Architecture (Qiskit & Cirq)](#️-1-quantum-algorithm-architecture-ibm-qiskit--google-cirq)
+- [2. Discrete Einstein Equations & FLRW Cosmological Bounce](#-2-discrete-einstein-equations--flrw-cosmological-bounce)
+- [3. Large-Scale Monte Carlo Verification (N = 10,000)](#-3-large-scale-monte-carlo-verification-n--10000-nodes)
+- [4. Interdisciplinary Bridge: GNNs](#-4-interdisciplinary-bridge-graph-machine-learning--gnns)
+- [Repository Structure](#-repository-structure)
+- [Quickstart & Installation](#-quickstart--installation)
+- [Citation](#-citation)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
@@ -150,7 +166,7 @@ simplicial-hub-impedance/
 Ensure you have Python 3.10+ installed. Run the following commands in your terminal:
 
 ```bash
-git clone https://github.com/michalslusarczyk/simplicial-hub-impedance.git
+git clone https://github.com/SHZ-codex/simplicial-hub-impedance.git
 cd simplicial-hub-impedance
 pip install -r requirements.txt
 ```
@@ -191,10 +207,21 @@ If you use this codebase, methodology, or theoretical framework in your academic
   title        = {Simplicial Quantum Gravity Hub Impedance & Trotter-Suzuki Quantum Algorithms},
   year         = {2026},
   publisher    = {GitHub},
-  url          = {https://github.com/michalslusarczyk/simplicial-hub-impedance},
+  url          = {https://github.com/SHZ-codex/simplicial-hub-impedance},
   note         = {ROI v5.2 Concrete Hub Solution: Weighted Physical Metric w_{uv} = (d_u d_v)^{-0.25}}
 }
 ```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issue reports, and theoretical critiques are welcome. This is an active research codebase — if you spot a numerical inconsistency, an alternative derivation, or want to extend the framework (e.g., new impedance exponents, additional NISQ hardware backends, alternative triangulation topologies), please open an issue or pull request.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-idea`)
+3. Run the example scripts in `examples/` to verify no regressions
+4. Submit a pull request with a clear description of the physics or engineering change
 
 ---
 
