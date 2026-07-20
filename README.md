@@ -20,6 +20,7 @@
 - [2. Discrete Einstein Equations & FLRW Cosmological Bounce](#-2-discrete-einstein-equations--flrw-cosmological-bounce)
 - [3. Large-Scale Monte Carlo Verification (N = 10,000)](#-3-large-scale-monte-carlo-verification-n--10000-nodes)
 - [4. Interdisciplinary Bridge: GNNs](#-4-interdisciplinary-bridge-graph-machine-learning--gnns)
+- [Related Work: Thermo-Chrono-Dynamics (TCD)](#-related-work-thermo-chrono-dynamics-tcd)
 - [Repository Structure](#-repository-structure)
 - [Quickstart & Installation](#-quickstart--installation)
 - [Citation](#-citation)
@@ -120,6 +121,23 @@ $$\tilde{D}^{-q} \tilde{A} \tilde{D}^{-q} \iff w_{uv} = (d_u d_v)^{-q}$$
 In standard Graph Convolutional Networks (Kipf & Welling, 2017), symmetric normalization uses $q = 0.50$. When running deep GNNs on scale-free graphs, unweighted message passing ($q=0.00$) causes **oversmoothing**: all node embeddings collapse into identical representations within 2–3 layers due to hub broadcasting shortcuts.
 
 Adopting Michał Ślusarczyk's **$q = 0.25$ fractional normalization** acts as an optimal **attention temperature regularization**, preventing hub information leakage while preserving local feature diversity across complex relational datasets. See [`docs/GNN_OVERSMOOTHING_PARALLELS.md`](docs/GNN_OVERSMOOTHING_PARALLELS.md) for full mathematical proofs.
+
+---
+
+## 🕰️ Related Work: Thermo-Chrono-Dynamics (TCD)
+
+A related theoretical note by the same author, exploring a discrete,
+entropy-based account of time — where time is not a continuous external
+parameter but an emergent measure of discrete entropy production (thermo-ticks),
+built on the Tomita–Takesaki modular flow and GKSL/Lindblad open-system
+dynamics. It shares this repository's underlying theme of discrete, causal
+spacetime structure rather than a smooth differentiable manifold.
+
+See [`docs/TCD_THERMO_CHRONO_DYNAMICS.md`](docs/TCD_THERMO_CHRONO_DYNAMICS.md)
+for the current (v0.2, post-audit) version — it documents both the corrected
+formalism and the mathematical errors found and fixed in the original v0.1
+draft (an invalid "discretization" of the modular automorphism group that
+broke both the von Neumann algebra structure and entropy production).
 
 ---
 
