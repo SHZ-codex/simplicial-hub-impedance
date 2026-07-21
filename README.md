@@ -139,6 +139,22 @@ formalism and the mathematical errors found and fixed in the original v0.1
 draft (an invalid "discretization" of the modular automorphism group that
 broke both the von Neumann algebra structure and entropy production).
 
+Two follow-up notes build on it:
+
+- [`docs/TCD_P1-P6_SUMMARY.md`](docs/TCD_P1-P6_SUMMARY.md) — shows how the six
+  corrected postulates (P1–P6) chain into a single dependency graph rather than
+  six independent patches, illustrated with a fully worked, numerically
+  verified laser-cooling example (population inversion → 2 discrete TCD ticks,
+  matching the analytic KL-divergence ceiling to 5 decimal places).
+- [`docs/TCD_TOWARD_TOE.md`](docs/TCD_TOWARD_TOE.md) — an explicitly
+  **architectural proposal, not a proven theory**, sketching how TCD could
+  unify with the Spin(10) GUT sector and this repo's causal simplicial gravity
+  on one shared causal graph. Includes a quantitative resolution of the
+  SUSY-vs-dissipation tension (the dissipator must be a dimension-≥6 operator,
+  γ∼E³/M_Pl², or it's already excluded by CPLEAR kaon-decoherence data) and an
+  honest list of what's still unproven (M_GUT↔hub-impedance-q relation, no new
+  falsifiable number yet, etc.).
+
 ---
 
 ## 📁 Repository Structure
